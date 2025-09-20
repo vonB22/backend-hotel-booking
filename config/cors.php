@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Cross-Origin Resource Sharing (CORS) Configuration
@@ -17,7 +16,7 @@ return [
 
     // 'paths' => ['*'],
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie', 'login', 'logout', 'register'],
+    'paths' => ['api/*', 'sanctum/csrf-cookie', 'login', 'logout', 'register', '/'],
 
     'allowed_methods' => ['*'],
 
@@ -32,5 +31,4 @@ return [
     'max_age' => 0,
 
     'supports_credentials' => true,
-
 ];
